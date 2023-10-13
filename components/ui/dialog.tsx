@@ -1,17 +1,22 @@
 "use client"
 
-import * as React from "react"
-import * as DialogPrimitive from "@radix-ui/react-dialog"
-import { X } from "lucide-react"
+import * as React from 'react'
+import * as Dialog from '@radix-ui/react-dialog';
+import { Cross1Icon } from '@radix-ui/react-icons';
+import {  } from "lucide-react"
+import {  } from "@/lib/utils"
 
-import { cn } from "@/lib/utils"
-
-const Dialog = DialogPrimitive.Root
-
+const DialogDemo = () => (
+<Dialog.Root>
+<Dialog.Trigger> asChild>
+< 
+  
+  
+  </Dialog.Trigger></Dialog.Root>
 const DialogTrigger = DialogPrimitive.Trigger
 
 const DialogPortal = ({
-  className,
+<className,
   ...props
 }: DialogPrimitive.DialogPortalProps) => (
   <DialogPrimitive.Portal className={cn(className)} {...props} />
@@ -121,3 +126,19 @@ export {
   DialogTitle,
   DialogDescription,
 }
+
+import * as Dialog from '@radix-ui/react-dialog';
+
+export default () => (
+  <Dialog.Root>
+    <Dialog.Trigger />
+    <Dialog.Portal>
+      <Dialog.Overlay />
+      <Dialog.Content>
+        <Dialog.Title />
+        <Dialog.Description />
+        <Dialog.Close />
+      </Dialog.Content>
+    </Dialog.Portal>
+  </Dialog.Root>
+)
