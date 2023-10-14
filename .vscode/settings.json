@@ -3,6 +3,7 @@
         "clsx",
         "hookform",
         "lucide",
+        "nextjs",
         "openai",
         "zustand"
     ]
