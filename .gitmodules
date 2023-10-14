@@ -1,0 +1,3 @@
+[submodule "LLM-AI-Toolbox"]
+	path = LLM-AI-Toolbox
+	url = https://github.com/DevonGifford/LLM-AI-Toolbox.git
