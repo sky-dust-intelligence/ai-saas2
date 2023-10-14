@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
-
+import { useEffect, useState } from react;
 import ProModal from "./pro-modal";
+import useProModal from './hooks/use-pro-modal';
 
 export const ModalProvider = () => {
   const [mounted, setMounted] = useState(false);
+  const { isOpen, onOpen, onClose } = useProModal();
 
   useEffect(() => {
     setMounted(true);
@@ -17,7 +18,9 @@ export const ModalProvider = () => {
 
   return (
     <>
-      <ProModal />
+      {isOpen && <ProModal onClose={onClose} />}
     </>
   );
 };
+
+export { ProModal };
