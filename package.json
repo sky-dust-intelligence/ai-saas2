@@ -27,7 +27,6 @@
     "@types/node": "20.4.3",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
-    "add": "^2.0.6",
     "autoprefixer": "10.4.14",
     "axios": "^1.5.1",
     "class-variance-authority": "^0.7.0",
@@ -36,6 +35,7 @@
     "crisp-sdk-web": "^1.0.21",
     "dialog": "^0.3.1",
     "dotenv-load": "^3.0.0",
+    "daisyui": "^2.42.1",
     "eslint": "8.45.0",
     "eslint-config-next": "13.5.4",
     "hf": "^0.3.0",
@@ -44,21 +44,19 @@
     "next-env": "^1.1.1",
     "openai": "^3.3.0",
     "pnpm": "^8.9.0",
-    "postcss": "8.4.27",
+   "radix": "^0.0.0",
     "react": "18.2.0",
     "react-dialog": "^1.0.2",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-hook-form": "^7.47.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.11.0",
     "react-markdown": "^8.0.7",
     "replicate": "^0.12.3",
-    "shadcn-ui": "^0.4.1",
     "stripe": "^12.18.0",
     "tailwind": "^4.0.0",
     "tailwind-merge": "^1.14.0",
     "tailwindcss": "3.3.3",
-    "tailwindcss-animate": "^1.0.7",
     "typescript": "5.1.6",
     "typewriter-effect": "^2.21.0",
     "zod": "^3.22.4",
@@ -66,6 +64,10 @@
     "zustand": "^4.4.3"
   },
   "devDependencies": {
-    "prisma": "^5.4.2"
+    "prisma": "^5.4.2",
+    "tailwindcss": "^3.3.3",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
