@@ -2,8 +2,8 @@ generator client {
   provider = "prisma-client-js"
 }
 
-data source db {
-  provider = "mysql"
+datasource db {
+provider = "mysql"
   url = env("DATABASE_URL")
   relationMode = "prisma"
 }

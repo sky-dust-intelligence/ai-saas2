@@ -104,9 +104,9 @@ dependencies:
   pnpm:
     specifier: ^8.9.0
     version: 8.9.0
-  radix:
-    specifier: ^0.0.0
-    version: 0.0.0
+  promodal:
+    specifier: ^1.0.6
+    version: 1.0.6(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -4563,6 +4563,17 @@ packages:
       babel-runtime: 6.26.0
     dev: false
 
+  /promodal@1.0.6(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-HqLi2NuXZYLEuyc6c4YdWv7eT57FOt6d1yVelcggbUs5+nhx+B06GpFOkkgonplLglkQ06UojzQkQdDmfWocaw==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: ^16.0.0
+      react-dom: ^16.0.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
   /prop-types@15.8.1:
     resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
     dependencies:
@@ -4621,10 +4632,6 @@ packages:
   /quick-lru@4.0.1:
     resolution: {integrity: sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g==}
     engines: {node: '>=8'}
-    dev: false
-
-  /radix@0.0.0:
-    resolution: {integrity: sha512-7hNRr3nbJH3vMepLpg5Je0B6ezlW8PdZuaPI79vVE2BslBKOOpP5/q9GILJ9JFFlhqNorDe4EFMwTkzlskyUUg==}
     dev: false
 
   /raf@3.4.1:
