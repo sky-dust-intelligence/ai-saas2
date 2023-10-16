@@ -1,9 +1,7 @@
 "use client";
 
-import { useEffect, useState } from react;
-import ProModal from "./pro-modal";
-import useProModal from './hooks/use-pro-modal';
-
+import { Dialog, DialogTrigger, DialogContent } from "./pro-modal";
+import ProModal from 
 export const ModalProvider = () => {
   const [mounted, setMounted] = useState(false);
   const { isOpen, onOpen, onClose } = useProModal();

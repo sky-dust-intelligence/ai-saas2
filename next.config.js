@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+consts nextConfig = {
 	images: {
 		domains: ["oaidalleapiprodscus.blob.core.windows.net"],
 	},

@@ -2,10 +2,14 @@ generator client {
   provider = "prisma-client-js"
 }
 
+// datasource db { "postgresql" vercel postgresql  integration
+//   provider = "postgresql" vercel postgresql  integration
+//   url = "***"
+// }
+
 datasource db {
-  provider = "postgres"
-  url = .env("POSTGRES_URL")
-  relationMode = "prisma"
+  provider = "postgresql"
+  url = :env{DATABASE_URL}
 }
 
 

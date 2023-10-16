@@ -1,8 +1,0 @@
-!/bin/bash
-
-# Script 2: Modify Components and ~/ui/ Files
-
-# Assuming the components and ~/ui/ files are in a folder named 'components_and_ui'
-cp -r LLM-AI-Toolbox/components components/ui/* ESG_AI_platform/components components/ui/
-
-echo "Components and ~/ui/ files have been updated."
