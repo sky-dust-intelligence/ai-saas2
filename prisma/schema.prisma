@@ -1,12 +1,10 @@
-}
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "mysql"
-  url = env("DATABASE_URL")
+  provider = "postgres"
+  url = .env("POSTGRES_URL")
   relationMode = "prisma"
 }
 
@@ -27,3 +25,4 @@ model UserSubscription {
   stripePriceId          String?   @map(name: "stripe_price_id")
   stripeCurrentPeriodEnd DateTime? @map(name: "stripe_current_period_end")
 }
+

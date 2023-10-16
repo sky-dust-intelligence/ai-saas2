@@ -10,8 +10,6 @@ author: DevonGifford
 > ## Excerpt
 > Fullstack AI Toolbox
     (Portfolio Project)
-     
-      
         https://ai-toolbox-devongifford.vercel.app/
       
     live demo
