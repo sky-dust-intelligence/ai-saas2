@@ -99,8 +99,8 @@ dependencies:
     specifier: ^32.4.1
     version: 32.4.1(encoding@0.1.13)
   zod:
-    specifier: ^3.22.3
-    version: 3.22.4
+    specifier: ^4.0.0
+    version: 4.6.7
   zustand:
     specifier: ^4.4.3
     version: 4.4.3(@types/react@18.2.15)(react@18.2.0)
@@ -6161,8 +6161,8 @@ packages:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
     dev: false
 
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  /zod@4.6.7:
+    resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
     dev: false
 
   /zustand@4.4.3(@types/react@18.2.15)(react@18.2.0):
